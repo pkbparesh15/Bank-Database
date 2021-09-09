@@ -10,15 +10,18 @@
 </head>
 
 <body>
-    <!--Alert Section-->
-    <!--<div class="alert-success">
-            <span>Message Sent! Thank You for Contacting Us.</span>
-        </div>
-        <div class="alert-error">
-            <span>Something Went Wrong! Please Try again later.</span>
-        </div>-->
-    <!--Alert Section-->
+
     <!--Contact Section-->
+    <header id="header">
+        <a href="index.html" class="logo">The TSF Bank</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html" class="active">Contact</a></li>
+            <li><a href="">Transaction</a></li>
+            <li><a href="https://www.thesparksfoundationsingapore.org/" target="_blank">TSF</a></li>
+        </ul>
+    </header>
     <div class="contact-section">
         <div class="contact-info">
             <div><i class="fas fa-map-marked-alt"></i>14-B The TSF Bank, AppleSeed, United States</div>
@@ -29,7 +32,7 @@
             <h2>Contact Us</h2>
             <form class="contact" action="" method="POST">
                 <input type="text" name="name" class="text-box" placeholder="Your Name" required>
-                <input type="number" name="accountNumber" class="text-box" placeholder="Account Number" required>
+                <input type="number" name="accountNumber" class="text-box" placeholder="Account Number" required minlength="9">
                 <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
                 <input type="submit" name="submit" class="send-btn" value="Send">
             </form>
