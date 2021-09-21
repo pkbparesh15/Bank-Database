@@ -92,7 +92,26 @@ section img {
     opacity: 40%;
 }
 
-#btn1 {
+section #text {
+    position: absolute;
+    color: rgb(0, 162, 255);
+    font-size: 10vw;
+    text-align: center;
+    line-height: 0.55em;
+    font-family: "Allison", cursive;
+    transform: translateY(-50%);
+}
+
+section #text span {
+    font-size: 0.2em;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+#btn1,
+#btn2,
+#btn3 {
     text-decoration: none;
     display: inline-block;
     padding: 8px 30px;
@@ -107,28 +126,9 @@ section img {
     transition: ease-out 0.2s;
 }
 
-#btn2 {
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 30px;
-    position: relative;
-    background: rgb(0, 217, 255);
-    color: #ffffff;
-    font-size: 1.2em;
-    font-weight: 500;
-    letter-spacing: 2px;
-    border-radius: 45px;
-    transform: translateY(100px);
-    transition: ease-out 0.2s;
-}
-
-#btn1:hover {
-    background: rgb(0, 162, 255);
-    color: #ffffff;
-    padding: 16px 38px;
-}
-
-#btn2:hover {
+#btn1:hover,
+#btn2:hover,
+#btn3:hover {
     background: rgb(0, 162, 255);
     color: #ffffff;
     padding: 16px 38px;

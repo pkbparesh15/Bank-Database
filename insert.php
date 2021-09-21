@@ -11,17 +11,7 @@
 
     </head>
     <body>
-        <header id="header">
-            <a href="index.html" class="logo">The TSF Bank</a>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="About.html" class="active">About</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-                <li><a href="Transaction.html">Transaction</a></li>
-                <li><a href="https://www.thesparksfoundationsingapore.org/" target="_blank">TSF</a></li>
-            </ul>
-        </header>
-        
+               
         <?php
 
             if($_SERVER['REQUEST_METHOD'] == 'POST'){
