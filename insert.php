@@ -45,28 +45,31 @@
             }
 
         ?>
-            
-            <form action="./insert.php" method="POST">
-                <div class="main">
-                    <div class="input-group mb-3">
-                    <span class="input-group-text" id="basic-addon1">Customer Name</span><br>
-                    <input type="text" class="form-control" name="name" required>
+            <div class="about">
+                <form action="./insert.php" method="POST">
+                    <h2>Account Information</h2>
+                    
+                    <div class="text-box">
+                        <span class="input-group-text" id="basic-addon1">Customer Name</span><br>
+                        <input type="text" class="form-control" name="name" required>
+                    </div>
+                   <br>
+                    <div class="text-box">
+                       <span class="input-group-text" id="basic-addon2">Email ID</span><br>
+                        <input type="email" class="form-control" name="mail" required>
                     </div>
                     <br>
-                    <div class="input-group mb-3">
-                    <span class="input-group-text" id="basic-addon2">Email ID</span><br>
-                    <input type="email" class="form-control" name="mail" required>
-                    </div>
-                    <br>
-                    <div class="input-group mb-3">
-                    <span class="input-group-text">Balance($)</span><br>
-                    <input type="numfmt_format_currency" class="form-control" name="bal" required>
+                    <div class="text-box">
+                        <span class="input-group-text">Balance($)</span><br>
+                        <input type="numfmt_format_currency" class="form-control" name="bal" required>
                     </div>
                     <br>
                     <button type="submit">Create Account</button>
-                    <button><a href="index.php">Back</a></button>
-                </div>
-            </form>
+                    <section>
+                    <a href="index.php">Back</a>
+                    </section>
+                </form>
+            </div>
             
        
     </body>

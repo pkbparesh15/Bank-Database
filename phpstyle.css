@@ -47,35 +47,6 @@ body {
     padding: 30px 15px;
 }
 
-#header ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#header ul li {
-    list-style: none;
-    margin-left: 2px;
-}
-
-#header ul li a {
-    text-decoration: none;
-    padding: 25px 15px;
-    color: #fff;
-    transition: ease-out 0.2s;
-}
-
-#header ul li a:hover {
-    background: rgb(80, 30, 100);
-    color: white;
-    padding: 40px 15px;
-}
-
-#header ul li a.active {
-    background: rgb(80, 30, 100);
-    color: white;
-}
-
 table,
 th,
 td {
@@ -94,7 +65,6 @@ section {
 /* INDEX style*/
 
 section a {
-    float: right;
     background: rgb(130, 50, 155);
     color: #fff;
     border: none;
@@ -115,16 +85,35 @@ section a:hover {
 
 /* NEW CUSTOMER */
 
-.main {
-    width: 50%;
+.about {
     background-color: rgba(0, 0, 0, 0.7);
-    color: #ffffff;
+    padding: 100px 450px;
+    flex: 1;
+    margin: 30px 50px;
+    color: white;
+}
+
+.about h2 {
+    color: #fff;
     text-align: center;
-    padding: 50px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.form-control {
+    background: #000;
+    color: #fff;
+    border: none;
+    width: 500px;
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
 }
 
 button,
@@ -141,4 +130,16 @@ button.a {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.2s ease-in;
+}
+
+
+/* withdraw */
+
+.wid {
+    float: right;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 100px 100px;
+    flex: 1;
+    margin: 30px 50px;
+    color: white;
 }

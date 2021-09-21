@@ -102,7 +102,7 @@
 
         ?>
             <form action="./transfer.php" method="POST">
-                
+                <div class="wid">
                     <div class="input-group mb-3">
                     <span class="input-group-text" id="basic-addon1">Sender's Account Number</span><br>
                     <input type="number" class="form-control" name="acc1" required>
@@ -118,9 +118,9 @@
                     <input type="numfmt_format_currency" class="form-control" name="bal" required>
                     </div>
                     <br>
-                    <button type="submit">Transfer</button>
+                    <button type="submit">Transfer</button><br><br><br>
                     <button><a href="index.php">Back</a></button>
-                
+                </div>
             </form>
             
        

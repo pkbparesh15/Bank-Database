@@ -72,7 +72,7 @@
 
         ?>
             <form action="./withdraw.php" method="POST">
-                
+                <div class="wid">
                     <div class="input-group mb-3">
                     <span class="input-group-text" id="basic-addon1">Account Number</span><br>
                     <input type="number" class="form-control" name="acc" required>
@@ -83,9 +83,9 @@
                     <input type="numfmt_format_currency" class="form-control" name="bal"required >
                     </div>
                     <br>
-                    <button type="submit">Submit</button>
+                    <button type="submit">Submit</button><br><br><br>
                     <button><a href="index.php">Back</a></button>
-                
+                </div>
             </form>
             
        

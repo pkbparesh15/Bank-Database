@@ -14,13 +14,7 @@
     <body>
         <header id="header">
             <a href="index.html" class="logo">The TSF Bank</a>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="About.html" class="active">About</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-                <li><a href="Transaction.html">Transaction</a></li>
-                <li><a href="https://www.thesparksfoundationsingapore.org/" target="_blank">TSF</a></li>
-            </ul>
+            
         </header>
         
         <?php
@@ -48,12 +42,13 @@
 
         ?>
        <br>
+       <div class="wid">
        <section id="btns">
-            <a href="deposit.php" name="btn2">Deposit</a>
-            <a href="withdraw.php" name="btn3">Withdraw</a>
-            <a href="transfer.php" name="btn3">Transfer</a>
-            <a href="insert.php" name="btn1">New Customer</a>
-            
+            <a href="insert.php" name="btn1">New Customer</a><br><br><br>
+            <a href="deposit.php" name="btn2">Deposit</a><br><br><br>
+            <a href="withdraw.php" name="btn3">Withdraw</a><br><br><br>
+            <a href="transfer.php" name="btn3">Transfer</a>                     
        </section>
+        </div>
     </body>
 </html>
