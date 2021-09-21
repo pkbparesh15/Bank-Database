@@ -7,17 +7,21 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="phpstyle.css">
 
-        <style>
-            table,th,td{
-                border: solid black;
-                
-                
-            }
-        </style>
+        
     </head>
     <body>
+        <header id="header">
+            <a href="index.html" class="logo">The TSF Bank</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html" class="active">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Transaction.html">Transaction</a></li>
+                <li><a href="https://www.thesparksfoundationsingapore.org/" target="_blank">TSF</a></li>
+            </ul>
+        </header>
         
         <?php
             $servername = "localhost";
@@ -44,9 +48,12 @@
 
         ?>
        <br>
-       <button><a href="insert.php">New Customer</a></button>
-       <button><a href="">Deposit</a></button>
-       <button><a href="">Withdraw</a></button>
-
+       <section id="btns">
+            <a href="deposit.php" name="btn2">Deposit</a>
+            <a href="withdraw.php" name="btn3">Withdraw</a>
+            <a href="transfer.php" name="btn3">Transfer</a>
+            <a href="insert.php" name="btn1">New Customer</a>
+            
+       </section>
     </body>
 </html>

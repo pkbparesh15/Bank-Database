@@ -7,10 +7,20 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="phpstyle.css">
 
     </head>
     <body>
+        <header id="header">
+            <a href="index.html" class="logo">The TSF Bank</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html" class="active">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Transaction.html">Transaction</a></li>
+                <li><a href="https://www.thesparksfoundationsingapore.org/" target="_blank">TSF</a></li>
+            </ul>
+        </header>
         
         <?php
 
@@ -45,25 +55,27 @@
             }
 
         ?>
+            
             <form action="./insert.php" method="POST">
-                
-                <div class="input-group mb-3">
-                <span class="input-group-text" id="basic-addon1">Customer Name</span><br>
-                <input type="text" class="form-control" name="name" >
+                <div class="main">
+                    <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">Customer Name</span><br>
+                    <input type="text" class="form-control" name="name" required>
+                    </div>
+                    <br>
+                    <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon2">Email ID</span><br>
+                    <input type="email" class="form-control" name="mail" required>
+                    </div>
+                    <br>
+                    <div class="input-group mb-3">
+                    <span class="input-group-text">Balance($)</span><br>
+                    <input type="numfmt_format_currency" class="form-control" name="bal" required>
+                    </div>
+                    <br>
+                    <button type="submit">Create Account</button>
+                    <button><a href="index.php">Back</a></button>
                 </div>
-                <br>
-                <div class="input-group mb-3">
-                <span class="input-group-text" id="basic-addon2">Email ID</span><br>
-                <input type="email" class="form-control" name="mail" >
-                </div>
-                <br>
-                <div class="input-group mb-3">
-                <span class="input-group-text">Balance($)</span><br>
-                <input type="numfmt_format_currency" class="form-control" name="bal" >
-                </div>
-                <br>
-                <button type="submit">Create Account</button>
-                <button><a href="index.php">Back</a></button>
             </form>
             
        
