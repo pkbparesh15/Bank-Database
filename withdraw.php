@@ -72,7 +72,7 @@
 
         ?>
             <form action="./withdraw.php" method="POST">
-                <div class="withdraw">
+                
                     <div class="input-group mb-3">
                     <span class="input-group-text" id="basic-addon1">Account Number</span><br>
                     <input type="number" class="form-control" name="acc" required>
@@ -85,7 +85,7 @@
                     <br>
                     <button type="submit">Submit</button>
                     <button><a href="index.php">Back</a></button>
-                </div>
+                
             </form>
             
        

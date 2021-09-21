@@ -102,7 +102,7 @@
 
         ?>
             <form action="./transfer.php" method="POST">
-                <div class="transfer">
+                
                     <div class="input-group mb-3">
                     <span class="input-group-text" id="basic-addon1">Sender's Account Number</span><br>
                     <input type="number" class="form-control" name="acc1" required>
@@ -120,7 +120,7 @@
                     <br>
                     <button type="submit">Transfer</button>
                     <button><a href="index.php">Back</a></button>
-                </div>
+                
             </form>
             
        
